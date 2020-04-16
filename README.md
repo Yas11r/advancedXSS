@@ -30,18 +30,18 @@ To get only the flag, run the following:
 You also have interactive shell with the backend of the `sqlite`
 
 ```sh
-*[master]yas3r@linux[/mnt/WindowsDrive/xss-challenge]$ go run cmd/xss/main.go -h
+*$ go run cmd/xss/main.go -h
 Usage of /tmp/go-build950372382/b001/exe/main:
   -interactive
     	[+] Interactive to manual SQL injection!
 exit status 2
-*[master]yas3r@linux[/mnt/WindowsDrive/xss-challenge]$ 
+*$ 
 ```
 
 Lets try to interactive with the backend databse:
 
 ```bash
-*[master]yas3r@linux[/mnt/WindowsDrive/xss-challenge]$ go run cmd/xss/main.go --interactive
+*$ go run cmd/xss/main.go --interactive
 [+] Advanced XSS Challenge at 247ctf.com - HELICOPTER ADMINISTRATORS
 [+] Cleaning stuff..
 [+] Sending XSS Payload..
