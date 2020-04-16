@@ -8,7 +8,7 @@ This applications administrators are very aggressive. They will immediately view
 
 ```go
 string = "https://feef92c0eb0c14bf.247ctf.com
-`
+```
 
 Then you are ready to go:
 To get only the flag, run the following:
