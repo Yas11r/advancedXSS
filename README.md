@@ -3,7 +3,7 @@
 ```
 This applications administrators are very aggressive. They will immediately view any page you report. Can you trick them into disclosing data they shouldn't? 
 ```
-
+This challenge is compensation of bypassing blacklist, Advanced XXS, CSRF, SQLite Injeciton
 1- Change 	`urlBase` varible to your generated url:
 
 ```go
